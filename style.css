@@ -1,5 +1,5 @@
 
-* { color:#000; text-decoration: none;}
+* { text-decoration: none;}
 
 html, body {
   height: 100vh;
@@ -19,6 +19,7 @@ h3 {
   font-family: 'Otomanopee One', sans-serif;
   padding-bottom: 50px;
   margin-bottom: 0 !important;
+  color: #000;
 }
 
 li {
@@ -97,10 +98,6 @@ margin: 1px;
   margin-top: 1rem;
 }
 
-.projects {
-  background-color: #FFF0F0;
-}
-
 .container {
   position: relative;
   width: 80%;
@@ -121,7 +118,6 @@ margin: 1px;
   display: -webkit-flex;
   display: inline-block;
   flex-wrap: wrap;
-  padding: 50px 30 40px 0px;
   max-width: 100%;
 }
 
@@ -156,8 +152,7 @@ margin: 1px;
 }
 
 .podcast {
-   margin: 20px 0;
-   padding-bottom: 20px;
+   background-color: #fff;
 }
 
 
@@ -204,13 +199,13 @@ img {
 
 .fa {
   display: inline-grid !important;
-  color:  rgba(0,0,0,0.8) !important;
+  color:  #EBD4D4 !important;
   text-decoration: none !important;
   text-align: center !important;
 }
 
 footer .fa:hover {
-  color: #EBD4D4 !important;
+  color: rgba(0,91,150) !important;
 }
 
 .fa-home:before, .fa-envelope-square:before {
