@@ -1,5 +1,9 @@
 
-* { text-decoration: none;}
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
 
 html, body {
   height: 100vh;
@@ -75,23 +79,62 @@ margin: 1px;
 
 .about-me {
   text-align: center;
-  background-color: rgba(0,91,150);
 }
 
 .title {
   margin: 0;
   font-weight: bolder;
-  color: #a3a3a0;
-  padding: 4rem 0rem 2rem;
+  color: #212529;
+  padding: 2rem;
+}
+
+.about-text, .descriptions, .freetime {
+  height: 400px;
+  width: 100%;
 }
 
 .descriptions {
-  padding: 2rem;
-  font-family: 'Montserrat', 'Roboto';
+  position: relative;
+  background: rgb(0, 181, 204);, 1
+;
 }
 
-.freetime ul {
-  text-decoration: none !important;
+.text-description p {
+   text-align: center;
+    padding: auto;
+    color: white;
+    font-size: 20px;
+}
+
+.freetime {
+      position: relative;
+      background: #212529;
+  }
+
+.freetext:ul {
+    color: white;
+  }
+
+.freetime::before {
+        content: "";
+        width: 50%;
+        height: 120px;
+        position: absolute;
+        top: -70px;
+        left: 0;
+        background: #212529;
+        transform: skewY(8deg);
+}
+
+.freetime::after {
+    content: "";
+    width: 50%;
+    height: 120px;
+    position: absolute;
+    top: -70px;
+    right: 0;
+    background: #212529;
+    transform: skewY(-8deg);
 }
 
 .mb-3 {
@@ -152,7 +195,6 @@ margin: 1px;
 }
 
 .podcast {
-   background-color: #fff;
 }
 
 
@@ -181,9 +223,13 @@ img {
 
 }
 
+.card-text {
+  font-size: 25px;
+}
+
 #contacts ul a {
   font-size: 100%;
-  color: #000;
+  color: #fff;
   text-align: center;
   padding-left: 0 !important;
 }
