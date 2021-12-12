@@ -48,6 +48,10 @@ ul {
     list-style: none;
 }
 
+h2.title {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
 .avatar img {
   margin: 2rem;
   width: 15%;
@@ -93,6 +97,10 @@ ul {
 .about-text, .descriptions, .freetime {
   height: 400px;
   width: 100%;
+}
+
+p.personality {
+margin-top: 5rem;
 }
 
 .descriptions {
