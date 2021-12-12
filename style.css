@@ -13,6 +13,10 @@ html, body {
   background-color: rgba(0,91,150);
   color: 000;
 }
+h2.title.podcast {
+  padding-bottom: 0;
+  font-size: 50px;
+}
 
 h2 {
   font-family: 'Montserrat', sans-serif;
