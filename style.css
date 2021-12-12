@@ -44,16 +44,19 @@ footer .container-fluid {
   margin: 10px 0;
 }
 
+ul {
+    list-style: none;
+}
+
 .avatar img {
-    margin: 2rem;
-    width: 15%;
-    height: 126;
-    border-radius: 100%;
+  margin: 2rem;
+  width: 15%;
+  height: 126;
+  border-radius: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
 
 .my-profile {
   background-repeat: no-repeat;
@@ -62,7 +65,7 @@ footer .container-fluid {
 }
 
 .container-fluid .col-sm {
-margin: 1px;
+  margin: 1px;
 }
 
 .name {
@@ -85,7 +88,6 @@ margin: 1px;
   margin: 0;
   font-weight: bolder;
   color: #212529;
-  padding: 2rem;
 }
 
 .about-text, .descriptions, .freetime {
@@ -111,30 +113,32 @@ margin: 1px;
       background: #212529;
   }
 
-.freetext:ul {
-    color: white;
-  }
+.freetxt {
+  color: #EBD4D4;
+  font-size: 100%;
+  padding-top: 5rem;
+}
 
 .freetime::before {
-        content: "";
-        width: 50%;
-        height: 120px;
-        position: absolute;
-        top: -70px;
-        left: 0;
-        background: #212529;
-        transform: skewY(8deg);
+  content: "";
+  width: 50%;
+  height: 120px;
+  position: absolute;
+  top: -70px;
+  left: 0;
+  background: #212529;
+  transform: skewY(8deg);
 }
 
 .freetime::after {
-    content: "";
-    width: 50%;
-    height: 120px;
-    position: absolute;
-    top: -70px;
-    right: 0;
-    background: #212529;
-    transform: skewY(-8deg);
+  content: "";
+  width: 50%;
+  height: 120px;
+  position: absolute;
+  top: -70px;
+  right: 0;
+  background: #212529;
+  transform: skewY(-8deg);
 }
 
 .mb-3 {
@@ -216,10 +220,10 @@ img {
 .icons {
   margin-top: -10px;
   padding-top: 20px;
- font-size: 1.7rem;
- text-decoration: none;
- display: flex;
- justify-content: space-evenly;
+  font-size: 1.7rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-evenly;
 
 }
 
