@@ -13,6 +13,7 @@ html, body {
   background-color: rgba(0,91,150);
   color: 000;
 }
+
 h2.title.podcast {
   padding-bottom: 0;
   font-size: 50px;
@@ -203,14 +204,9 @@ margin-top: 5rem;
 }
 
 .middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
+
 }
 
 .container:hover .image {
@@ -316,7 +312,7 @@ footer .fa:hover {
 }
 
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1100px) {
 
   .text-description p {
     m-width: 100%;
@@ -327,7 +323,7 @@ footer .fa:hover {
   h2.title {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    font-size: 200%;
+    font-size: 150%;
   }
 
   .freetxt {
@@ -340,15 +336,55 @@ footer .fa:hover {
     padding-bottom: 5px;
   }
 
-  h2.title.podcast {
-    font-size: 200%;
-  }
-
-  h5.card-title {
-    font-size: 200%;
+  h5.card-title, h2.title.podcast {
+    font-size: 150%;
   }
 
   .card-text {
     font-size: 100%;
   }
+
+  .project-img {
+    padding: 1rem;
+    width: 290px;
+  }
+
+  img.image {
+    width: 45% !important;
+  }
+
+  ol, ul {
+    padding-left: 0rem !important;
+  }
+}
+
+@media screen and (min-width: 1101px) {
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  div.freetime {
+    padding-top: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .text-description p {
+    font-size: 1.2rem;
+  }
+
+   h2.title.podcast {
+    margin-top: 8rem;
+  }
+
 }
