@@ -55,10 +55,29 @@ ul {
 h2.title {
   padding-top: 3rem;
   padding-bottom: 3rem;
+  color: #fff;
 }
+
+h2.title.podcast {
+  color: #fff;
+}
+
+h2.title.podcast {
+  color: #fff;
+}
+
+h5.card-title {
+  font-size: 2.3rem;
+}
+
+span.wrap {
+  color: #212529;
+  font-size: 60%;
+}
+
 .avatar img {
   margin: 2rem;
-  width: 15%;
+  width: 30%;
   height: 126;
   border-radius: 100%;
   display: block;
@@ -77,8 +96,10 @@ h2.title {
 }
 
 .name {
-  font-family: 'Sacramento', cursive;
-  font-size: 250%;
+  font-family: 'Otomanopee One', sans-serif;
+  font-size: 300%;
+  color: #000;
+
 }
 
 .profile {
@@ -169,7 +190,8 @@ margin-top: 5rem;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
-  padding-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .wrap {
@@ -200,8 +222,8 @@ margin-top: 5rem;
 }
 
 .text {
-  background-color: #04AA6D;
-  color: white;
+  background-color: rgb(203, 200, 200);
+  color: #212529;
   font-size: 12px;
   padding: 16px 32px;
 }
@@ -291,4 +313,12 @@ footer .fa:hover {
   color: #968C83;
   width: 100%;
   font-size: 13px;
+}
+
+
+@media screen and (min-width: 480px) {
+  img.image {
+    m-width: 100%;
+    max-height: 100%;
+  }
 }
