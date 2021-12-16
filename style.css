@@ -17,7 +17,6 @@ html, body {
 h2.title.podcast {
   margin-top: 0;
   padding-bottom: 0;
-  font-size: 50px;
 }
 
 h2 {
@@ -59,6 +58,7 @@ h2.title {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #fff;
+  font-size: 35px;
 }
 
 h5.card-title {
