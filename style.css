@@ -104,6 +104,10 @@ span.wrap {
   padding-bottom: 1rem;
 }
 
+.typewrite {
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
 .about-me {
   text-align: center;
 }
