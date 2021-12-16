@@ -15,6 +15,7 @@ html, body {
 }
 
 h2.title.podcast {
+  margin-top: 0;
   padding-bottom: 0;
   font-size: 50px;
 }
@@ -56,14 +57,6 @@ ul {
 h2.title {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  color: #fff;
-}
-
-h2.title.podcast {
-  color: #fff;
-}
-
-h2.title.podcast {
   color: #fff;
 }
 
@@ -149,7 +142,7 @@ margin-top: 5rem;
 
 .freetxt {
   color: #EBD4D4;
-  font-size: 100%;
+  font-size: 80%;
   padding-top: 5rem;
 }
 
@@ -381,10 +374,6 @@ footer .fa:hover {
 
   .text-description p {
     font-size: 1.2rem;
-  }
-
-   h2.title.podcast {
-    margin-top: 8rem;
   }
 
 }
